@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap');
+header {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+#btn {
+    margin-left: 20px;
+}
+
+.chat_user {
+    padding: 5px 20px;
+    border-radius: 20px;
+    border-bottom-right-radius: 0px;
+    width: fit-content;
+    background-color: rgb(61, 0, 173);
+    margin: 7px;
+    color: white;
+    margin-left: auto;
+    text-align: right;
+}
+
+.chat_user .username {
+    display: none;
+    margin: 0;
+}
+
+.chat_guest {
+    padding: 5px 20px;
+    border-radius: 15px;
+    border-top-left-radius: 0px;
+    width: fit-content;
+    background-color: rgb(59, 59, 59);
+    margin: 7px;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.username {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: whitesmoke;
+    font-size: 12px;
+}
+
+.message {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+.chat_guest .message {
+    margin-top: 4px;
+}
+
+.input-box {
+    outline: none;
+    width: 50%;
+    border: 1px solid rgb(218, 218, 218);
+    background-color: whitesmoke;
+    padding: 10px 15px;
+    border-radius: 100px;
+    margin-bottom: 50px;
+}
+
+span {
+    font-weight: 400;
+    color: rgb(61, 0, 173);
+}
